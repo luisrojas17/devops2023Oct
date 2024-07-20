@@ -40,10 +40,10 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - knodeapp.devops.molcajete.dev
+    - devops.molcajete.dev
     secretName: letsencrypt-nginx
   rules:
-  - host: knodeapp.devops.molcajete.dev
+  - host: devops.molcajete.dev
     http:
       paths:
       - path: /
